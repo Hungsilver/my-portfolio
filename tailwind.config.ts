@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      textColor: {
+        green_custom: "#16F2B3",
+        pink_custom: "#EC4899",
+      },
     },
   },
   plugins: [],
