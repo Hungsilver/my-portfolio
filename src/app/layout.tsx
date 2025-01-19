@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      {/* <head>{FixFOIT}</head> */}
+      <head>{FixFOIT}</head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}
       >
@@ -42,19 +42,19 @@ export default function RootLayout({
   );
 }
 
-// const FixFOIT = (
-//   <script
-//     dangerouslySetInnerHTML={{
-//       __html: `
-//     try {
-//       const theme = localStorage.getItem('theme')
-//       const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
-
-//       if (theme === 'dark' || (!theme && systemTheme)) {
-//         document.documentElement.classList.add('dark')
-//       }
-//     } catch (e) {}
-//   `,
-//     }}
-//   />
-// );
+const FixFOIT = (
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `
+    try {
+      const theme = localStorage.getItem('theme')
+      const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
+      
+      if (theme === 'dark' || (!theme && systemTheme)) {
+        document.documentElement.classList.add('dark')
+      }
+    } catch (e) {}
+  `,
+    }}
+  />
+);
