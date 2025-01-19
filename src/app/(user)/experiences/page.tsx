@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import AnimationLottie from "@/components/animation-lottie/AnimationLottie";
-import cook from "../../../helpers/assets/cook.json";
+// import AnimationLottie from "@/components/animation-lottie/AnimationLottie";
+// import cook from "../../../helpers/assets/cook.json";
 import { expriences } from "@/utils/data/expriences-data";
 import { FaBuildingUser } from "react-icons/fa6";
 
@@ -16,7 +16,7 @@ const Experiences = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-8">
         <div className="flex-1">
           <div className="w-3/4 mx-auto">
-            <AnimationLottie animationPath={cook} />
+            {/* <AnimationLottie animationPath={cook} /> */}
           </div>
         </div>
         <div className="flex-1 flex flex-col justify-center gap-5">
