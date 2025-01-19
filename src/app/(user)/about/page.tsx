@@ -14,7 +14,7 @@ const AboutSection = () => {
       </div>
       <div className="flex justify-center relative">
         <Image
-          className="rounded-md"
+          className="rounded-md w-auto"
           src={"/avatar/avatar.jpg"}
           loading="lazy"
           width={300}
