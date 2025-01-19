@@ -4,7 +4,7 @@ import AboutSection from "./about/page";
 import Experiences from "./experiences/page";
 import SkillPage from "./skill/page";
 import Educations from "./educations/educations";
-import Projects from "./projects/page";
+// import Projects from "./projects/page";
 import Contact from "./contact/page";
 
 const HomeUserPage = () => {
@@ -14,7 +14,7 @@ const HomeUserPage = () => {
       <AboutSection />
       <Experiences />
       <SkillPage />
-      <Projects />
+      {/* <Projects /> */}
       <Educations />
       <Contact />
     </div>
