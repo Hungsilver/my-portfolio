@@ -25,6 +25,7 @@ const SkillPage = () => {
                     height={50}
                     width={50}
                     alt="logo"
+                    priority={false}
                     className="w-auto h-full"
                   />
                 </div>
