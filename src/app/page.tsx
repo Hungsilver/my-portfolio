@@ -1,7 +1,13 @@
 import React from "react";
+import LayoutUser from "./(anonymous)/layout";
+import HomeUserPage from "./(anonymous)/page";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <LayoutUser>
+      <HomeUserPage />
+    </LayoutUser>
+  );
 };
 
 export default page;
