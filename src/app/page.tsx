@@ -1,6 +1,6 @@
 import React from "react";
 import LayoutUser from "./(anonymous)/layout";
-import HomeUserPage from "./(anonymous)/page";
+import HomeUserPage from "./(anonymous)/HomPage";
 
 const page = () => {
   return (
