@@ -1,10 +1,10 @@
 "use client";
 import AnimationLottie from "@/components/animation-lottie/AnimationLottie";
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import RunFunny from "@/helpers/assets/run-funny.json";
-import { ElasticSlider } from "@/components/admin/animation/ElasticSlider";
-import { ImVolumeIncrease } from "react-icons/im";
-import { ImVolumeDecrease } from "react-icons/im";
+// import { ElasticSlider } from "@/components/admin/animation/ElasticSlider";
+// import { ImVolumeIncrease } from "react-icons/im";
+// import { ImVolumeDecrease } from "react-icons/im";
 
 const AdminPage = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
