@@ -76,7 +76,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div>
-          <div className="border from-[#0d1224] bg-gradient-to-r to-[#0a0d37] rounded-md">
+          <div className="border from-[#0d1224] bg-gradient-to-r to-[#0a0d37] dark:bg-gray-300 rounded-md">
             <div className="flex p-3 gap-5">
               <div className="rounded-full size-3 bg-red-400"></div>
               <div className="rounded-full size-3 bg-orange-400"></div>

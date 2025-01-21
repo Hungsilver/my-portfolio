@@ -5,7 +5,7 @@ import Experiences from "./experiences/page";
 import SkillPage from "./skill/page";
 import Educations from "./educations/educations";
 // import Projects from "./projects/page";
-import Contact from "./contact/page";
+// import Contact from "./contact/page";
 
 const HomeUserPage = () => {
   return (
@@ -16,7 +16,7 @@ const HomeUserPage = () => {
       <SkillPage />
       {/* <Projects /> */}
       <Educations />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 };

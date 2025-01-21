@@ -21,7 +21,7 @@ const AboutSection = () => {
           height={300}
           alt="img-user"
         />
-        <div className="absolute hidden lg:flex right-1 top-12 bg-[#1a1443] py-1 px-2 rounded-md rotate-90">
+        <div className="absolute hidden lg:flex right-1 top-12 dark:bg-gray-300 bg-[#1a1443] py-1 px-2 rounded-md rotate-90">
           ABOUT ME
         </div>
       </div>
