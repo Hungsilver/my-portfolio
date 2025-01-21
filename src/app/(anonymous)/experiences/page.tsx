@@ -9,7 +9,7 @@ const Experiences = () => {
   return (
     <div className="py-4 lg:py-12">
       <div className="flex justify-center mb-5">
-        <div className="bg-[#1a1443] py-2 px-4 rounded-md">
+        <div className="dark:bg-[#1a1443] bg-gray-300 py-2 px-4 rounded-md">
           <h1>Experiences</h1>
         </div>
       </div>
